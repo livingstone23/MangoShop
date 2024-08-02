@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MangoShop.Domain\MangoShop.Domain.csproj" />
+    <ProjectReference Include="..\MongoShop.Infrastructure\MongoShop.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

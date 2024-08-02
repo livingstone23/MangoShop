@@ -10,4 +10,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MangoShop.Domain\MangoShop.Domain.csproj" />
+    <ProjectReference Include="..\MongoShop.Infrastructure\MongoShop.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
