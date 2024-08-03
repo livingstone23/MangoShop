@@ -35,7 +35,7 @@ public class MangoDbContext : DbContext
         {
 
 
-            entity.ToTable("WhatsAppMessage", schema: "dbo");
+            entity.ToTable("WhatsAppMessages", schema: "dbo");
 
 
             entity.HasKey(e => e.Id);
@@ -55,13 +55,13 @@ public class MangoDbContext : DbContext
                 .HasMaxLength(200);
 
             entity.Property(e => e.MessageBody)
-                .HasMaxLength(5000);
+                .HasMaxLength(4000);
 
             entity.Property(e => e.MessageId)
                 .IsRequired()
-                .HasMaxLength(50);
+                .HasMaxLength(100);
 
-            entity.Property(e => e.ToPhobe)
+            entity.Property(e => e.PhoneFrom)
                 .IsRequired()
                 .HasMaxLength(20);
 

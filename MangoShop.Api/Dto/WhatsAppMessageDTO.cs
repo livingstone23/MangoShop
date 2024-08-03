@@ -7,6 +7,9 @@ namespace MangoShop.Api.Dto;
 
 
 
+/// <summary>
+/// Class for represent a WhatsApp to save in the database
+/// </summary>
 public class WhatsAppMessageDTO : Entity
 {
 

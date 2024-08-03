@@ -24,7 +24,6 @@ public class AutoMapperConfig : Profile
         CreateMap<WhatsAppMessage, WhatsAppMessageDTO>();
         CreateMap<WhatsAppMessageDTO, WhatsAppMessage>();
 
-
     }
 
 
