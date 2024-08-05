@@ -24,7 +24,7 @@ builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnC
 
 builder.Services.AddSwaggerGen(opts =>
 {
-    opts.SwaggerDoc("v1", new OpenApiInfo { Title = "API Test con WhatsApp V1.0", Version = "v1" });
+    opts.SwaggerDoc("v1", new OpenApiInfo { Title = "API Test V1.0", Version = "v1" });
 
     //Enable Annotations
     opts.EnableAnnotations();
